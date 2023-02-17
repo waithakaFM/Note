@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="5dp"
+    tools:context=".NewNoteFragment">
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@null"
+        android:inputType="textCapSentences"
+        android:imeOptions="actionNext"
+        android:ems="15"
+        android:fontFamily="@font/normal_font"
+        android:hint="@string/title"
+        android:padding="10dp"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etBody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@null"
+        android:inputType="textCapSentences|textMultiLine|textAutoCorrect"
+        android:fontFamily="@font/normal_font"
+        android:hint="@string/body"
+        android:padding="10dp" />
+</LinearLayout>
